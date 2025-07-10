@@ -1,0 +1,33 @@
+{
+  "name": "multiprotocol_programmer",
+  "description": "Complete documentation for the Multiprotocol Programmer development board",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://unit-electronics-mx.github.io/unit_ch552_multiprotocol_programmer/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unit-electronics-mx/unit_ch552_multiprotocol_programmer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unit-electronics-mx/unit_ch552_multiprotocol_programmer/issues"
+  },
+  "author": {
+    "name": "Unit Electronics",
+    "email": "contacto@uelectronics.com",
+    "url": "https://uelectronics.com/"
+  },
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "sass-embedded": "^1.89.2",
+    "vue": "^3.5.17",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-hope": "2.0.0-rc.94"
+  }
+}

@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://unit-electronics-mx.github.io/unit_ch552_multiprotocol_programmer/sitemap.xml
+Sitemap: https://unit-electronics-mx.github.io/unit_ch552_multiprotocol_programmer/unit_multiprotocol_programmer_platform/sitemap.xml

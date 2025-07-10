@@ -3,11 +3,11 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/unit_multiprotocol_programmer_platform/",
 
   // Configuración del repositorio
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/logo.png' }]
   ],
 
   locales: {

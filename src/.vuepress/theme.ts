@@ -15,7 +15,7 @@ export default hopeTheme({
   logo: "/logo.png",
 
   // Configuración del repositorio GitHub
-  repo: "unit-electronics-mx/unit_ch552_multiprotocol_programmer",
+  repo: "UNIT-Electronics-MX/unit_multiprotocol_programmer_platform",
   
   // Rama por defecto (normalmente 'main' o 'master')
   docsBranch: "main",
@@ -150,12 +150,16 @@ export default hopeTheme({
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+    provider: "Giscus",
+    repo: "UNIT-Electronics-MX/unit_multiprotocol_programmer_platform",
+    repoId: "R_kgDOPKgajA",
+    category: "General",
+    categoryId: "DIC_kwDOPKgajM4Csyz1",
+    mapping: "pathname",
+    reactionsEnabled: true,
+    inputPosition: "bottom",
     },
+
 
     components: {
       components: ["Badge", "VPCard"],
